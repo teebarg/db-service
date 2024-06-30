@@ -1,0 +1,24 @@
+# Ignore Git repository files
+.git
+.gitignore
+
+# Ignore Docker-related files
+.dockerignore
+docker-compose.override.yml
+docker-compose.*.yml
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore editor-specific files (e.g., for VSCode)
+.vscode/
+.idea/
+*.swp
+
+# Ignore coverage files
+.coverage
+coverage.xml
