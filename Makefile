@@ -22,5 +22,5 @@ updateTest:  ## Update test environment containers (eg: after config changes)
 	docker compose -p $(PROJECT_SLUG) up --build -d
 
 stopTest: ## Stop test development environment
-	@echo "$(RED)Updating docker environment...$(RESET)"
+	@echo "$(RED)Removing docker environment...$(RESET)"
 	@COMPOSE_PROJECT_NAME=$(PROJECT_SLUG) docker compose down
